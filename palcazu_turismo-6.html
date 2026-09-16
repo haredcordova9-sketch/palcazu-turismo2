@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Palcazú Turismo | Paraíso natural de Pasco</title>
+<style>
+:root{--green:#14532d;--green2:#166534;--lime:#84cc16;--cream:#fffdf5;--dark:#123524}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:#24352b}
+header{min-height:72vh;padding:28px 7%;display:flex;align-items:center;color:white;
+background:linear-gradient(90deg,rgba(3,36,20,.86),rgba(3,36,20,.35)),url("https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1800&q=85") center/cover}
+nav{position:absolute;top:0;left:0;width:100%;padding:22px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:800}.navlinks a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{max-width:760px}.hero h1{font-size:clamp(42px,7vw,78px);line-height:.95;margin:80px 0 20px}
+.hero p{font-size:20px;line-height:1.6}.btn{display:inline-block;background:var(--lime);color:#18320f;padding:14px 22px;border-radius:30px;text-decoration:none;font-weight:700;margin-top:10px}
+section{padding:65px 7%}.title{text-align:center;max-width:800px;margin:0 auto 35px}.title h2{font-size:36px;color:var(--green);margin-bottom:10px}.title p{line-height:1.6}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,.08);transition:.2s}.card:hover{transform:translateY(-4px)}
+.card img{width:100%;height:190px;object-fit:cover}.card-body{padding:20px}.card h3{margin-top:0;color:var(--green2)}.card p{line-height:1.5}.price{font-weight:800;color:#b45309}
+.info{background:#eaf5e6}.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}.fact{background:#fff;padding:22px;border-radius:15px;text-align:center}.fact strong{display:block;font-size:28px;color:var(--green)}
+.tablewrap{overflow:auto}.prices{width:100%;border-collapse:collapse;background:white;border-radius:15px;overflow:hidden}.prices th,.prices td{padding:15px;text-align:left;border-bottom:1px solid #e5e7eb}.prices th{background:var(--green);color:white}
+.itinerary{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}.day{padding:24px;border-left:5px solid var(--lime);background:#fff;border-radius:12px}
+footer{background:#0b2e1a;color:white;padding:35px 7%;text-align:center} small{opacity:.8}
+@media(max-width:650px){.navlinks{display:none}header{min-height:78vh}}
+</style>
+</head>
+<body>
+<header id="inicio">
+<nav><div class="logo">🌿 PALCAZÚ TURISMO</div><div class="navlinks"><a href="#lugares">Lugares</a><a href="#precios">Precios</a><a href="#ruta">Ruta</a></div></nav>
+<div class="hero">
+<h1>Descubre Palcazú</h1>
+<p>Selva, ríos, cascadas y cultura Yanesha. Vive una experiencia de naturaleza y aventura en el distrito de Palcazú, provincia de Oxapampa, Pasco.</p>
+<a class="btn" href="#lugares">Explorar lugares</a>
+</div>
+</header>
+
+<section class="info">
+<div class="title"><h2>Un destino para conectar con la naturaleza</h2><p>Palcazú reúne paisajes amazónicos, comunidades, ríos y atractivos naturales. Entre los lugares registrados y difundidos para visitantes destacan Iscozacín, la cascada Mugñiz, el centro recreacional La Maloca y sectores vinculados al Parque Nacional Yanachaga Chemillén.</p></div>
+<div class="facts">
+<div class="fact"><strong>🌳</strong>Selva amazónica</div>
+<div class="fact"><strong>💦</strong>Cascadas y ríos</div>
+<div class="fact"><strong>🛶</strong>Turismo de aventura</div>
+<div class="fact"><strong>🪶</strong>Cultura Yanesha</div>
+</div>
+</section>
+
+<section id="lugares">
+<div class="title"><h2>Lugares clave</h2><p>Una selección para comenzar tu recorrido.</p></div>
+<div class="cards">
+<article class="card"><img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Cascada Mugñiz</h3><p>Un atractivo natural de Iscozacín. La ruta registrada por MINCETUR contempla acceso desde Playa Caliente y un tramo final a pie.</p><p class="price">Entrada: consultar localmente</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Centro Recreacional La Maloca</h3><p>Espacio recreativo reconocido como zona de importancia turística y visitado por turistas nacionales y excursionistas locales.</p><p class="price">Tarifa: consultar antes de viajar</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Iscozacín</h3><p>Centro del distrito y punto de partida para conocer atractivos cercanos como el río, cascadas, comunidades y espacios recreativos.</p><p class="price">Visita: según actividad</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Sector Paujil</h3><p>Zona turística del Parque Nacional Yanachaga Chemillén, con ríos, lagunas, cascadas, caminatas y observación de fauna.</p><p class="price">Tarifas: ver tabla</p></div></article>
+</div>
+</section>
+
+<section id="precios" class="info">
+<div class="title"><h2>Precios orientativos</h2><p>Las tarifas de atractivos locales pueden cambiar. Cuando no existe una tarifa pública verificable, se indica “consultar” en lugar de inventar un precio.</p></div>
+<div class="tablewrap">
+<table class="prices">
+<tr><th>Lugar / actividad</th><th>Precio publicado</th><th>Nota</th></tr>
+<tr><td>Parque Nacional Yanachaga Chemillén — general</td><td>S/ 30 por 1 día</td><td>Tarifa oficial de SERNANP</td></tr>
+<tr><td>PN Yanachaga — nacional adulto</td><td>S/ 15 por 1 día</td><td>Tarifa oficial de SERNANP</td></tr>
+<tr><td>PN Yanachaga — menor 5 a 16 años</td><td>S/ 8 por 1 día</td><td>Menores de 5 años: ingreso libre</td></tr>
+<tr><td>Cascada Mugñiz</td><td>Consultar</td><td>Confirmar con operador/comunidad antes de viajar</td></tr>
+<tr><td>La Maloca</td><td>Consultar</td><td>La tarifa puede depender del servicio o actividad</td></tr>
+</table>
+</div>
+</section>
+
+<section id="ruta">
+<div class="title"><h2>Ruta sugerida</h2><p>Un ejemplo de recorrido que puedes adaptar a tu tiempo.</p></div>
+<div class="itinerary">
+<div class="day"><h3>01 · Iscozacín</h3><p>Recorrido por la zona urbana, plaza principal y organización de la visita a los atractivos cercanos.</p></div>
+<div class="day"><h3>02 · Naturaleza</h3><p>Visita a un atractivo como la Cascada Mugñiz. Considera transporte, guía local y tiempo para caminar.</p></div>
+<div class="day"><h3>03 · Paujil</h3><p>Explora el sector turístico del Parque Nacional Yanachaga Chemillén, respetando horarios y normas del área natural protegida.</p></div>
+</div>
+</section>
+
+<section class="info">
+<div class="title"><h2>Consejos para tu visita</h2></div>
+<div class="cards">
+<div class="card"><div class="card-body"><h3>🎒 Lleva lo necesario</h3><p>Agua, repelente, protección solar, calzado cómodo y una bolsa para tus residuos.</p></div></div>
+<div class="card"><div class="card-body"><h3>🧭 Planifica</h3><p>Confirma precios, horarios, transporte y condiciones de acceso antes de salir.</p></div></div>
+<div class="card"><div class="card-body"><h3>🌱 Cuida Palcazú</h3><p>No dejes residuos, respeta la fauna y flora y sigue las indicaciones de las comunidades y autoridades.</p></div></div>
+</div>
+</section>
+
+<footer><h2>🌿 Palcazú Turismo</h2><p>Paraíso natural de Pasco</p><small>Precios sujetos a cambios. Verifica las tarifas directamente con cada atractivo antes de viajar.</small></footer>
+</body>
+</html>
